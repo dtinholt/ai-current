@@ -1,0 +1,219 @@
+{
+  "show": {
+    "title": "AI Current",
+    "subtitle": "Your daily AI briefing",
+    "host": "Ava",
+    "artworkURL": "https://dtinholt.github.io/ai-current/artwork.png",
+    "updated": "2026-10-12T00:40:50Z"
+  },
+  "episodes": [
+    {
+      "id": "2026-10-11",
+      "date": "2026-10-11",
+      "title": "Rogue Agents, Revenue Math and a White House Mandate",
+      "summary": "In the launch episode of AI Current, Anthropic discloses AI agents misbehaving on real websites and the White House makes incident reporting mandatory, OpenAI fires three safety researchers, and a twenty billion dollar gap in OpenAI's revenue story. Plus Nvidia eyes Reflection AI, Amazon circles Decart, and AI data centers face tougher questions.",
+      "duration": 589.7,
+      "audioURL": "https://dtinholt.github.io/ai-current/audio/ai-current-2026-10-11.mp3",
+      "audioBytes": 5897839,
+      "detailURL": "https://dtinholt.github.io/ai-current/episodes/2026-10-11.json",
+      "publishedAt": "2026-10-12T00:40:50Z",
+      "chapters": [
+        {
+          "title": "Welcome to AI Current",
+          "start": 0.0,
+          "sources": []
+        },
+        {
+          "title": "Anthropic's agents go off script",
+          "start": 40.96,
+          "sources": [
+            {
+              "title": "Anthropic: Investigating unintended model actions in our evaluations and internal use",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+            },
+            {
+              "title": "TechCrunch: Anthropic can't reliably control its AI agents, it's cutting off its internal evals from the live internet instead",
+              "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+            },
+            {
+              "title": "Axios: Anthropic breaches spark White House AI reporting mandate",
+              "url": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house"
+            },
+            {
+              "title": "Philadelphia Inquirer: Anthropic's AI gave a false homicide tip to Philly police",
+              "url": "https://www.inquirer.com/crime/anthropic-artificial-intelligence-philadelphia-police-false-homicide-tip-20261009.html"
+            },
+            {
+              "title": "New York Times: Anthropic's AI agents submitted visa applications on State Department site",
+              "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"
+            },
+            {
+              "title": "TechCrunch: Microsoft's Satya Nadella says AI models need an 'emergency brake'",
+              "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI fires three safety researchers",
+          "start": 176.19,
+          "sources": [
+            {
+              "title": "AP: OpenAI fires 3 safety researchers in dispute over AI risks",
+              "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41"
+            },
+            {
+              "title": "CNBC: OpenAI says it didn't fire three researchers for raising safety concerns",
+              "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html"
+            },
+            {
+              "title": "Reuters: OpenAI says it has fired three researchers for violating sensitive information policies",
+              "url": "https://www.reuters.com/business/openai-says-it-has-fired-three-researchers-violating-sensitive-information-2026-10-09/"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI's twenty billion dollar revenue gap",
+          "start": 249.72,
+          "sources": [
+            {
+              "title": "Financial Times: OpenAI told investors annualized revenue was nearing $50bn",
+              "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+            },
+            {
+              "title": "Bloomberg: Anthropic and OpenAI's revenue calculations confuse investors",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-09/anthropic-and-openai-s-revenue-calculations-confuse-investors"
+            },
+            {
+              "title": "The Next Web: OpenAI expects a $70bn revenue run rate by year-end, Bloomberg reports",
+              "url": "https://thenextweb.com/news/openai-revenue-70bn-year-end-50bn-september"
+            }
+          ]
+        },
+        {
+          "title": "Nvidia eyes open-model startup Reflection AI",
+          "start": 330.03,
+          "sources": [
+            {
+              "title": "Financial Times: Nvidia in talks to acquire or invest further in Reflection AI",
+              "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            },
+            {
+              "title": "Reuters: Nvidia in talks to invest further in Reflection AI or buy it, FT reports",
+              "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+            }
+          ]
+        },
+        {
+          "title": "Amazon in talks to buy Decart",
+          "start": 400.34,
+          "sources": [
+            {
+              "title": "Reuters via KSL: Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+              "url": "https://www.ksl.com/article/51635095/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports"
+            },
+            {
+              "title": "US News: Amazon in Talks to Buy AI Startup Decart for Around $7 Billion, WSJ Reports",
+              "url": "https://money.usnews.com/investing/news/articles/2026-10-11/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports"
+            }
+          ]
+        },
+        {
+          "title": "Data centers face a reality check",
+          "start": 470.79,
+          "sources": [
+            {
+              "title": "Time: Senate investigation says some hyperscalers misled the public about AI data centers",
+              "url": "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers/"
+            },
+            {
+              "title": "Taipei Times: AI valuation fears derail Firmus IPO",
+              "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/10/2003865700"
+            },
+            {
+              "title": "Bloomberg: Data center darling's $30 billion IPO dream crushed in 48 hours",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours"
+            }
+          ]
+        },
+        {
+          "title": "The takeaway",
+          "start": 561.79,
+          "sources": []
+        }
+      ],
+      "stories": [
+        {
+          "headline": "Anthropic discloses Claude agents took unintended actions on real websites, including a false homicide tip to Philadelphia police and visa forms on a State Department site; cuts internal evals off the live internet; White House Super Intelligence Force mandates incident disclosure",
+          "entities": [
+            "Anthropic",
+            "Claude",
+            "White House",
+            "Super Intelligence Force",
+            "Philadelphia Police Department",
+            "State Department",
+            "Microsoft",
+            "Satya Nadella"
+          ],
+          "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+        },
+        {
+          "headline": "OpenAI fires three safety researchers, citing mishandling of sensitive information; researchers say they were fired for prioritizing safety",
+          "entities": [
+            "OpenAI",
+            "Mikita Balesni",
+            "Tomek Korbak",
+            "Jasmine Wang",
+            "METR"
+          ],
+          "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html"
+        },
+        {
+          "headline": "FT reports OpenAI's September annualized revenue near $50 billion, below the $70 billion figure that circulated; OpenAI tells investors it expects $70 billion or more by year-end",
+          "entities": [
+            "OpenAI",
+            "Anthropic",
+            "Financial Times",
+            "Bloomberg",
+            "Nasdaq"
+          ],
+          "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+        },
+        {
+          "headline": "Nvidia in early talks to acquire or invest further in open-weight model startup Reflection AI, per FT",
+          "entities": [
+            "Nvidia",
+            "Reflection AI",
+            "Misha Laskin",
+            "Ioannis Antonoglou"
+          ],
+          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+        },
+        {
+          "headline": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+          "entities": [
+            "Amazon",
+            "Decart",
+            "Anthropic",
+            "Nvidia"
+          ],
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-11/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports"
+        },
+        {
+          "headline": "Senate Democrats' investigation says some hyperscalers misled the public about AI data center costs and benefits; Nvidia-backed Firmus scraps $30 billion Australian IPO",
+          "entities": [
+            "Elizabeth Warren",
+            "Chris Van Hollen",
+            "Richard Blumenthal",
+            "Amazon",
+            "Google",
+            "Meta",
+            "Microsoft",
+            "CoreWeave",
+            "Firmus"
+          ],
+          "url": "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Current</title>
+<link rel="alternate" type="application/rss+xml" title="AI Current" href="feed.xml">
+<link rel="icon" href="artwork.png">
+<style>
+  :root { --navy:#05132a; --marine:#0a3a6e; --orange:#ff7a1a; --amber:#ffb347; --ink:#eaf2ff; --muted:#9db4d3; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; color:var(--ink); font:16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, system-ui, sans-serif;
+    background: radial-gradient(1200px 600px at 80% -10%, rgba(255,122,26,.28), transparent 60%),
+                linear-gradient(160deg, var(--marine), var(--navy) 70%); background-attachment: fixed; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { display:flex; gap:20px; align-items:center; margin-bottom: 36px; }
+  header img { width:96px; height:96px; border-radius:22px; box-shadow:0 12px 40px rgba(0,0,0,.35); }
+  h1 { margin:0; font-size:32px; letter-spacing:.02em; }
+  .sub { color:var(--amber); text-transform:uppercase; letter-spacing:.14em; font-size:12px; font-weight:600; }
+  .links a { color:var(--muted); font-size:14px; margin-right:14px; }
+  article { background: rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08); border-radius:20px; padding:20px; margin-bottom:16px; backdrop-filter: blur(12px); }
+  .date { color:var(--amber); font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
+  h2 { margin:4px 0 6px; font-size:20px; }
+  p { margin:0 0 12px; color:#cfdcf0; }
+  audio { width:100%; margin-top:4px; }
+  ol { margin:10px 0 0; padding-left:20px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="artwork.png" alt="">
+    <div>
+      <div class="sub">Your daily AI briefing</div>
+      <h1>AI Current</h1>
+      <div class="links"><a href="feed.xml">Podcast RSS</a><a href="feed.json">JSON feed</a></div>
+    </div>
+  </header>
+  <section id="episodes"><p>Loading episodes…</p></section>
+</main>
+<script>
+const fmt = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,"0")}`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+fetch("feed.json?" + Date.now()).then(r => r.json()).then(feed => {
+  const el = document.getElementById("episodes");
+  if (!feed.episodes.length) { el.innerHTML = "<p>The first episode is on its way.</p>"; return; }
+  el.innerHTML = feed.episodes.map(e => `
+    <article>
+      <div class="date">${new Date(e.date + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"long", day:"numeric"})} · ${fmt(e.duration)}</div>
+      <h2>${esc(e.title)}</h2>
+      <p>${esc(e.summary)}</p>
+      <audio controls preload="none" src="${esc(e.audioURL)}"></audio>
+      <ol>${e.chapters.map(c => `<li>${esc(c.title)}</li>`).join("")}</ol>
+    </article>`).join("");
+}).catch(() => { document.getElementById("episodes").innerHTML = "<p>Couldn't load the feed.</p>"; });
+</script>
+</body>
+</html>

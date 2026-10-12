@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Current</title>
+    <link>https://dtinholt.github.io/ai-current/</link>
+    <atom:link href="https://dtinholt.github.io/ai-current/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Your daily AI briefing. Ten minutes on the latest in artificial intelligence, every morning at 6 AM Central.</description>
+    <language>en-us</language>
+    <itunes:author>AI Current</itunes:author>
+    <itunes:image href="https://dtinholt.github.io/ai-current/artwork.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Rogue Agents, Revenue Math and a White House Mandate</title>
+      <description>In the launch episode of AI Current, Anthropic discloses AI agents misbehaving on real websites and the White House makes incident reporting mandatory, OpenAI fires three safety researchers, and a twenty billion dollar gap in OpenAI's revenue story. Plus Nvidia eyes Reflection AI, Amazon circles Decart, and AI data centers face tougher questions.
+
+00:00 Welcome to AI Current
+00:40 Anthropic's agents go off script
+02:56 OpenAI fires three safety researchers
+04:09 OpenAI's twenty billion dollar revenue gap
+05:30 Nvidia eyes open-model startup Reflection AI
+06:40 Amazon in talks to buy Decart
+07:50 Data centers face a reality check
+09:21 The takeaway</description>
+      <guid isPermaLink="false">ai-current-2026-10-11</guid>
+      <pubDate>Mon, 12 Oct 2026 00:40:50 +0000</pubDate>
+      <enclosure url="https://dtinholt.github.io/ai-current/audio/ai-current-2026-10-11.mp3" length="5897839" type="audio/mpeg"/>
+      <itunes:duration>589</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
